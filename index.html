@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">My Portfolio</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            
+        </nav>
+    </header>
+
+<section id="home" class="home">
+
+    <div class="home-content">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Triveni Patle</h1>
+
+        <h2>I'm a <span id="typing-text">Web Developer</span></h2>
+
+        <p>
+            I am a passionate developer who loves creating websites
+            and learning new technologies. I enjoy solving problems
+            and building creative projects.
+        </p>
+
+        <div class="home-buttons">
+            <a href="#projects" class="project-btn">View Projects</a>
+            <a href="Project/Resume.pdf" download class="resume-btn">Download CV</a>
+        </div>
+
+        <div class="home-socials">
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/triveni-patle-110362292/" target="_blank">LinkedIn</a>
+        </div>
+
+    </div>
+
+    <div class="home-image">
+        <img src="Images/Profile.jpg.jpeg" alt="My Profile Photo">
+    </div>
+
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+
+    <h1>ABOUT ME</h1>
+    <div class="heading-line"></div>
+
+    <div class="about-container">
+
+        <div class="about-content">
+            <h2>Who Am I?</h2>
+
+            <p>
+                Hello! I am an Information Technology student
+                passionate about software development and technology.
+                I enjoy learning new skills and building projects
+                that help me improve my programming knowledge.
+            </p>
+
+            <p>
+                I am particularly interested in Java Backend Development,
+                database management and building applications using
+                Java, Spring Boot and MySQL.
+            </p>
+
+            <p>
+                My goal is to become a skilled software developer
+                and contribute to real-world projects while
+                continuously learning and growing.
+            </p>
+
+        </div>
+
+        <div class="about-details">
+
+            <div class="about-box">
+                <h3>🎯 Career Goal</h3>
+                <p>Java Developer</p>
+            </div>
+
+            <div class="about-box">
+                <h3>💻 Area of Interest</h3>
+                <p>Java Full Stack Development</p>
+            </div>
+
+            <div class="about-box">
+                <h3>📚 Currently Learning</h3>
+                <p>Java, Spring Boot & Web Development</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section id="education" class="education">
+    <h1>MY EDUCATION</h1>
+    <div class="heading-line"></div>
+
+    <div class="education-timeline">
+
+        <div class="education-item">
+            <div class="education-dot"></div>
+            <div class="education-card">
+                <h2>B.Tech – Information Technology</h2>
+                <h3>Tulsiramji Gaikwad-Patil College of Engineering & Technology Nagpur</h3>
+                <p>2024 – 2027</p>
+                <span>Currently Pursuing</span>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-dot"></div>
+            <div class="education-card">
+                <h2>Diploma In Information Technology</h2>
+                <h3>Government Polytechnic  Gondia (Maharashtra)</h3>
+                <p>Passing Year: 2024</p>
+                <p>Percentage: 77 % </p>
+            </div>
+        </div>
+        <div class="education-item">
+            <div class="education-dot"></div>
+            <div class="education-card">
+                <h2>Higher Secondary (12th)</h2>
+                <h3>S.J.T.Z.P.Upper Primary School & Junior College Goregaon, Gondia (Maharashtra)</h3>
+                <p>Passing Year: 2021</p>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-dot"></div>
+            <div class="education-card">
+                <h2>Secondary School (10th)</h2>
+                <h3>Haridas Bhawarjar High School Gankhaira, Goregaon, Gondia (Maharashtra)</h3>
+                <p>Passing Year: 2019</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Skills Section -->
+
+    <section id="skills" class="skills">
+        <h1>MY SKILLS</h1>
+        <div class="heading-line"></div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <p>HTML5</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <p>CSS3</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <p>JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">☕</div>
+                <p>Java</p>
+            </div>
+
+
+
+            <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
+                <p>MySQL</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+        <h1>Let's Connect</h1>
+
+        <p class="contact-subtitle">
+            Drop me a message or connect with me on social media.
+        </p>
+
+        <div class="contact-form-container">
+
+            <form id="contact-form">
+
+                <input type="text" id="name" placeholder="Name" required>
+
+                <input type="email" id="email" placeholder="Email" required>
+
+                <textarea id="message" placeholder="Your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+
+        <h3 class="connect-heading">Or connect directly</h3>
+
+        <div class="social-links">
+
+            <a href="https://www.linkedin.com/in/triveni-patle-110362292/" target="_blank">ⓘ LinkedIn</a>
+
+            <a href="https://wa.me/917276733300" target="_blank">☏ WhatsApp</a>
+
+            <a href="https://www.instagram.com/triveni_patle_19/" target="_blank">◎ Instagram</a>
+
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

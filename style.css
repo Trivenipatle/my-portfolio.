@@ -602,3 +602,39 @@ body {
     }
 
 }
+/* Mobile Cards Fix */
+
+@media screen and (max-width: 600px) {
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .skill-card {
+        width: 100%;
+        min-height: 150px;
+        height: 150px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .education-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .about-box {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

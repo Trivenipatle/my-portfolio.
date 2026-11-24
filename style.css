@@ -574,3 +574,31 @@ body {
         gap: 10px;
     }
 }
+/* Mobile Navbar Responsive */
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        padding: 15px 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .navbar ul li {
+        list-style: none;
+    }
+
+    .navbar ul li a {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+}
